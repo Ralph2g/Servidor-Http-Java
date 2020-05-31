@@ -1,3 +1,5 @@
+package ServidorWeb;
+
 import java.net.*;
 import java.io.*;
 import java.util.*;
@@ -52,8 +54,6 @@ public class ServidorWeb
 							SendA(FileName);
 						}
 						System.out.println(FileName);
-						
-						
 					}
 					else if(line.toUpperCase().startsWith("GET"))
 					{
