@@ -112,6 +112,7 @@ public class Manejador extends Thread{
                 System.out.println("Peticion HEAD");
                  //Extraemos Toda la cabecera
                 int bodyLength = 0;
+                do{
                     line = br.readLine();
                     System.out.println(line);
                     if(line.startsWith("Content-Length: "))
